@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Grungepydia</title>
+    <script src="https://kit.fontawesome.com/6825416628.js" crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-content {
+            display: none;
+        }
+        .dropdown-header:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function toggleDropdown(id) {
+            var dropdownContent = document.getElementById("dropdown-content-" + id);
+            dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</head>
+
+<body class="container-fluid page-doc">
+
+<header>
+    <i id="iconachitarra" class="fa-solid fa-guitar"></i>
+    <h1 class="Grungetitle"><b>Grungepydia</b></h1>
+    <nav>
+        <ul>
+            <li><a class="whitelink" href="index.html">Home</a></li>
+            <li><a class="whitelink" href="nirvana.html">Nirvana</a></li>
+            <li><a class="whitelink" href="aliceinchains.html">Alice in Chains</a></li>
+            <li><a class="whitelink" href="soundgarden.html">Soundgarden</a></li>
+            <li><a class="whitelink" href="pearljam.html">Pearl Jam</a></li>
+            <li class="active"><a class="whitelink" href="doc.html">Documentazione</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    
+    
+    <h3 class="dropdown-header" onclick="toggleDropdown('abstract')">Abstract</h3>
+    <div id="dropdown-content-abstract" class="dropdown-content">
+        <p>Grungepydia - Esplorando il Mondo del Grunge</p>
+        <p>Grungepydia è un portale dedicato agli appassionati della musica grunge movimento musicale degli anni '90. L'obiettivo principale del sito è offrire una risorsa completa e informativa su band iconiche come Nirvana, Alice in Chains, Soundgarden e Pearl Jam.
+Il target principale di Grungepydia sono gli amanti della musica alternativa, giovani e adulti che condividono una passione per il grunge. Il sito offre biografie, analisi approfondite dei top 3 album e una galleria video, creando così un ambiente coinvolgente per gli utenti desiderosi di esplorare e capire meglio l'eredità di queste band. 
+I valori aggiunti di Grungepydia includono un “grungesque” design e un'esperienza utente ottimizzata su diverse piattaforme. La navigazione intuitiva consente agli utenti di accedere facilmente a informazioni esaustive e di immergersi nella storia del grunge. Il sito si propone di mantenere viva la fiamma della cultura, fornendo contenuti rilevanti per gli appassionati di tutte le generazioni.
+</p>
+        
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('project-plan')">Project Management Plan</h3>
+    
+    <div id="dropdown-content-project-plan" class="dropdown-content">
+        <p>Benchmarking</p>
+        <p>1. Obiettivi:
+            L’obiettivo di Grungepydia è creare un sito web che celebra il movimento grunge, offrendo informazioni dettagliate sugli artisti principali, collegando i loro successi migliori ad altre piattaforme per vivere al meglio l’esperienza. </p>
+            <p>2.   Target Utente
+Questo sito è indirizzato verso un ampio target utente,  con una fascia d’età che parte dagli adolescenti fino ad arrivare ad individui di 50 anni, ma ancora più in generale il sito è per chi prova interesse per questo genere di musica. </p>
+<p>
+3.  Competitors
+I competitors di questo sito sono i siti ufficiali delle singole band e i loro fan-websites, ma non vi è un sito unico che raggruppa informazioni per tutti e quattro i gruppi. La particolarità di Grungepydia infatti è la sua unicità nell’avere a disposizione una piccola enciclopedia per tutti i maggiori esponenti del genere grunge. 
+</p>
+        
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('architecture')">Architettura del sito</h3>
+    
+    <div id="dropdown-content-architecture" class="dropdown-content">
+        <img src="css/img/albero2.jpg" style="width: 50%">
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('wireframe')">Wireframe</h3>
+   
+    <div id="dropdown-content-wireframe" class="dropdown-content">
+        <div style="display: flex; align-items: center;">
+            <img src="css/img/wireframe.png" alt="Wireframe" style="width: 50%; height: auto;">
+            <p style="margin-left: 40px;">1. Nav<br>2. Collegamenti<br>3. Footer</p>
+        </div>
+        <div style="display: flex; align-items: center; margin-top: 20px;">
+            <img src="css/img/wireframe2.png" alt="Wireframe" style="width: 50%; height: auto;">
+            <p style="margin-left: 40px;">1.Nav<br>2. Biografia<br>3. Top 3 Album<br>4. Video Gallery<br>5.Footer</p>
+        </div>
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('look-and-feel')">Look and Feel</h3>
+    
+    <div id="dropdown-content-look-and-feel" class="dropdown-content">
+        <p>Le scelte grafiche rilevanti per il sito sono: il font “Roboto” utilizzato per i titoli, mentre quello usato per il testo principale è quello predefinito del browser; le palette colori predominante caratterizzata da tonalità scure, con sfondi e sezioni di colore nero/grigio scuro. Il testo , spesso  bianco o in tonalità chiare per garantire una buona leggibilità; le immagini di sfondo, che sono appunto sfondi tematici grunge che enfatizzano lo stile dell’omonimo movimento; l’icona dalla libreria Fontawesome usata nell’intestazione; le immagini dell’album, visualizzate con uno stile circolare per una presentazione uniforme e infine il framework Bootstrap utilizzato per garantire una struttura responsive.</p>
+      
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('languages-tools')">Linguaggi e Strumenti</h3>
+    
+    <div id="dropdown-content-languages-tools" class="dropdown-content">
+        <p>1. Linguaggi utilizzati: Html; Css; Javascript
+        <p>2.Strumenti: Bootstrap per la grafica, template html esistente per il carousel, spotify per i link e video scaricati da youtube per la Video Gallery.</p>
+        
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('communication-strategy')">Comunication Strategy</h3>
+   
+    <div id="dropdown-content-communication-strategy" class="dropdown-content">
+        <p>1.Background:Non essendoci siti simili, i veri pro del sito sono la navigazione intuitiva, l’aspetto accattivante caratteristico del movimento, la velocità di caricamento del sito e i contenuti informativi sulla musica e le band associate. </p>
+        <p>2. Obiettivi Comunicativi: Grungepydia ha come obiettivo principale creare una piattaforma online dedicata al genere grunge e alle sue band iconiche, offrendo un'esperienza coinvolgente per gli appassionati e i nuovi interessati. Il sito mira a promuovere il genere, a presentare band iconiche e in primis essere una risorsa informativa, un punto di partenza per i neo appassionati del genere.</p>
+        <p>3.Target Audience e Messaggio:Il sito si rivolge principalmente agli appassionati di musica grunge, compresi i fan delle band iconiche del genere. Il target demografico principale sono gli utenti under 40 con un interesse specifico per la cultura grunge. Il sito utilizza principalmente canali online, come i motori di ricerca e i social media, per raggiungere il suo pubblico. Il sito trasmette il messaggio di essere una risorsa completa e coinvolgente per gli amanti della musica grunge, offrendo informazioni dettagliate e un'esperienza multimediale.</p>
+      
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('promotion')">Promozione</h3>
+    
+    <div id="dropdown-content-promotion" class="dropdown-content">
+        <p>La promozione è stata condotta mediante il passaparola con amici e conoscenti</p>
+        
+    </div>
+
+    <h3 class="dropdown-header" onclick="toggleDropdown('results-evaluation')">Valutazione dei Risultati</h3>
+    
+    <div id="dropdown-content-results-evaluation" class="dropdown-content">
+        <p>Per misurare il successo viene controllato il numero di accessi e la durata all’interno del sito da parte dell’utente, inoltre per tenere traccia dei movimenti viene utilizzato Google Analytics.</p>
+       
+    </div>
+     <footer >
+            <p>&copy; 2024 Grungepydia. Tutti i diritti riservati.<br>
+                andrea_marinaz@icloud.com</p>
+        </footer>
+    
+   
+</body>
+</html>
