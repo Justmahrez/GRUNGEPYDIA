@@ -17,9 +17,8 @@ body.page-doc { background-color: ;
     }
 
   h3.dropdown-header {
-    color: rgb(56, 66, 150); /* Cambia il colore secondo le tue preferenze */
-    font-size: 24px; /* Cambia la dimensione del carattere secondo le tue preferenze */
-    /* Aggiungi altri stili secondo le tue esigenze */
+    color: rgb(56, 66, 150); 
+    font-size: 24px; /
 }
 
 header {
@@ -108,7 +107,7 @@ h3{text-align: center; font-size: 2em !important}
 
 p {
   line-height: 1.6;
-  color: white
+  color: white;
 }
 
 .band-image {
@@ -140,6 +139,7 @@ footer {
   padding: 20px;
  
 }
+
 
 
 
